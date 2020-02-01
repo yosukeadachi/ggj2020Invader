@@ -25,7 +25,11 @@ public class PlayerController : MonoBehaviour
         }
         // FIRE
         if (Input.GetKey (KeyCode.Space)) {
-            this.transform.Translate (0.1f,0.0f,0.0f);
+            if(GameObject.Find("missile(Clone)") == null) 
+            {
+                GameObject loadObj = (GameObject)Resources.Load ("Missile");
+                Instantiate (loadObj, this.transform.position, Quaternion.identity);
+            }
         }
     }
 }

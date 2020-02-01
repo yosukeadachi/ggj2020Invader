@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 7810344804737826821}
   m_Layer: 0
   m_Name: StarSparrow1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
