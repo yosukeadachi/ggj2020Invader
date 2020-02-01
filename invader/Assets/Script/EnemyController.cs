@@ -53,13 +53,13 @@ public class EnemyController : MonoBehaviour
         float _time = 100.0f;
         switch(aType) {
         case EnemyTypes.A:
-            _time = Random.Range(20.0f, 30.0f);
+            _time = Random.Range(30.0f, 40.0f);
             break;
         case EnemyTypes.B:
-            _time = Random.Range(10.0f, 20.0f);
+            _time = Random.Range(20.0f, 30.0f);
             break;
         case EnemyTypes.C:
-            _time = Random.Range(1.0f, 5.0f);
+            _time = Random.Range(10.0f, 20.0f);
             break;
         }
         return _time;
