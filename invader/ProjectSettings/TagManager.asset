@@ -8,6 +8,7 @@ TagManager:
   - Barrier
   - Missile
   - Unbrreakable
+  - EnemyMissile
   layers:
   - Default
   - TransparentFX

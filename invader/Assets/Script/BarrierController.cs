@@ -18,7 +18,7 @@ public class BarrierController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Missile")
+        if ((other.gameObject.tag == "Missile") || (other.gameObject.tag == "EnemyMissile"))
         {
             Destroy(other.gameObject);
             Destroy(this.gameObject);
